@@ -18,9 +18,9 @@
     function displayContact(outerArray){
         for(let i of outerArray){
             res.innerHTML+=`
-            <div class="card w-50 mt-5 border shadow">
+            <div class="card  mt-5 border shadow" style="width: 18rem;">
             <div class="card-body ">
-        <h5 class="card-title text-center mt-2"> ${i.name}</h5>
+        <h5 class="card-title text-center mt-2 p-4"> ${i.name}</h5>
         <p class="card-text">  <span>email: </span> ${i.email}</p>
         <p class="card-text"> <span>phone: </span>${i.phone}</p>
         <p class="card-text"><span>username: </span> ${i.username}</p>
